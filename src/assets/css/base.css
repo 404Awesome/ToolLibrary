@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "SmileySans";
+  src: url("../fonts/SmileySans-Oblique.woff2");
+}
+
+/* 滚动条样式 */
+.scrollBar::-webkit-scrollbar {
+  @apply w-0px;
+}
+.scrollBar:hover::-webkit-scrollbar {
+  @apply w-5px;
+}
+.scrollBar::-webkit-scrollbar-thumb {
+  @apply rounded bg-black/25 border-r-1px border-r-transparent;
+}

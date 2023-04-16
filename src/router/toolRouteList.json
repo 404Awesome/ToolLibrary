@@ -1,0 +1,8 @@
+{
+  "1": {
+    "name": "CableToCoreNumber",
+    "cnName": "电缆转芯数",
+    "description": "通过电缆名称获取电缆芯数,进行批量转换!",
+    "url": "/CableToCoreNumber"
+  }
+}
